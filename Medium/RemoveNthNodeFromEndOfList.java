@@ -15,7 +15,7 @@ class Solution {
             toRemove = toRemove.next;
         }
         if (toRemove == null) {
-            return null;
+            return head.next;
         }
         ListNode front = head;
         while (toRemove.next != null) {
